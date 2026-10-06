@@ -1,0 +1,15 @@
+{
+  "name": "workflow-skills",
+  "description": "Workflow skills for AI coding agents — plan stress-testing (grilling) and documentation writing conventions for agents (writing-for-agents).",
+  "homepage": "https://github.com/brightmeows/workflow-skills",
+  "repository": "https://github.com/brightmeows/workflow-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "workflow",
+    "grilling",
+    "agents-md",
+    "skill-md",
+    "writing"
+  ]
+}

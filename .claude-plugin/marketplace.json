@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "name": "workflow-skills",
+      "source": "./",
+      "skills": [
+        "./skills/grilling",
+        "./skills/writing-for-agents"
+      ]
+    }
+  ]
+}
