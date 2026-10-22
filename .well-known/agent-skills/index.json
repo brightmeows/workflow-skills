@@ -14,6 +14,13 @@
       "description": "给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写被上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/writing-for-agents/SKILL.md",
       "digest": "sha256:c13141c77bb0dbeacafdf9d05a2cd5e145c940a6c1a4017e022c7fca054852b6"
+    },
+    {
+      "name": "ai-taste",
+      "type": "skill-md",
+      "description": "审计中文文本中的 AI 味：覆盖提示词文档（AGENTS.md、SKILL.md 等写给代理的文档）与散文两类文本，逐条标记病征并给出可执行的判定动作，支持按需改写，附可直接嵌入提示词的预防规则块。当用户要求“查 AI 味”“审稿”“去 AI 味”“这段像不像 AI 写的”“检查提示词文风”，或对已完成的文稿、技能、AGENTS.md 要求检查表达质量时使用。Keywords: 去 AI 味，AI 味，审稿，文风检查，提示词；AI taste, de-AI, slop, humanize, writing audit",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/ai-taste/SKILL.md",
+      "digest": "sha256:05ad1aeb822fdcd63e4ba8668e6c3cdf52566c659df235f2f3695b142e578a73"
     }
   ]
 }

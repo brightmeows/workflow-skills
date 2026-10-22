@@ -5,7 +5,8 @@
       "source": "./",
       "skills": [
         "./skills/grilling",
-        "./skills/writing-for-agents"
+        "./skills/writing-for-agents",
+        "./skills/ai-taste"
       ]
     }
   ]
