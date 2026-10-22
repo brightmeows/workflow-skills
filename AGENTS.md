@@ -49,6 +49,26 @@ pre-commit run check-skill-md-format        # frontmatter 字段格式与 body �
 sha256sum skills/<name>/SKILL.md
 ```
 
+## 技能安装(npx skills)
+
+本仓通过 `npx skills` 分发。改动推送后,按下面的命令重装全局技能:
+
+```bash
+# 列出仓库内可装技能,确认远程已包含本次改动
+npx -y skills add brightmeows/workflow-skills -l
+
+# 全局安装/更新全部技能
+npx -y skills add brightmeows/workflow-skills -g -y -s '*' \
+  -a codebuddy -a codex -a opencode -a pi
+
+# 查看全局已装技能与来源
+npx -y skills ls -g
+```
+
+- `-a` 的值用小写 agent ID,重复写;逗号串会被判成无效 agent。
+- 安装目标按当前环境填写;要装到全部 agent,可用 `--all` 代替 `-s '*'` 与重复的 `-a`。
+- `npx skills add` 从 GitHub 拉取,本地改动要先推送再安装。
+
 ## SKILL.md 编写约定
 
 - frontmatter `name` 与父目录名一致,小写连字符
