@@ -3,7 +3,7 @@ name: ai-taste
 description: >-
   审计中文文本中的 AI 味：覆盖提示词文档（AGENTS.md、SKILL.md 等写给代理的文档）与散文两类文本，逐条标记病征并给出可执行的判定动作，支持按需改写，附可直接嵌入提示词的预防规则块。当用户要求“查 AI 味”“审稿”“去 AI 味”“这段像不像 AI 写的”“检查提示词文风”，或对已完成的文稿、技能、AGENTS.md 要求检查表达质量时使用。Keywords: 去 AI 味，AI 味，审稿，文风检查，提示词；AI taste, de-AI, slop, humanize, writing audit
 metadata:
-  source: 原创规则集；散文轨方法论化用 zero-click/avoid-ai-writing-zh 与 lucia-trend/de-ai-flavor 的公开规则（2026-10 调研），prompt 轨为本仓原创归纳；二轮调研并入中文维基《AI 生成文的特徵》、sepia、stop-slop-zh、humanizer-zh、speak-human-tw 等公开清单与文体计量研究，探针台账见 docs/ai-taste-probes.md
+  source: 原创规则集；散文轨方法论化用 zero-click/avoid-ai-writing-zh 与 lucia-trend/de-ai-flavor 的公开规则（2026-10 调研），prompt 轨为本仓原创归纳；二轮调研并入中文维基《AI 生成文的特徵》、sepia、stop-slop-zh、humanizer-zh、speak-human-tw 等公开清单与文体计量研究
 ---
 
 # AI 味审计（ai-taste）
