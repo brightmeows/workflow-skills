@@ -13,7 +13,7 @@
       "type": "skill-md",
       "description": "给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写被上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/writing-for-agents/SKILL.md",
-      "digest": "sha256:c13141c77bb0dbeacafdf9d05a2cd5e145c940a6c1a4017e022c7fca054852b6"
+      "digest": "sha256:3b511ca4f41c5898d5c960813074e8ed598283499e8d10a0ad3282956da4ad07"
     },
     {
       "name": "ai-taste",
