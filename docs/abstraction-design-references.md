@@ -50,3 +50,13 @@ Martin Fowler《Refactoring》：变更散布（shotgun surgery）与多变更�
 - Code slop 清单：76% 开发者认为 AI 代码需要重构；AI 采纳期代码重复率 8.3% 升至 12.3%（2021 至 2024）。<https://github.com/oakoss/agent-skills/blob/main/skills/de-slopify/references/code-slop.md>
 - Ox Security《Army of Juniors》（2025-10）：AI 代码“高度可用但系统性缺乏架构判断”，300 个开源项目中 10 类架构反模式高频出现。InfoQ 转述：<https://www.infoq.com/news/2025/11/ai-code-technical-debt/>
 - Chris Lattner 对 vibe coding 的批评（黑盒试错取代系统推演）：<https://cloud.tencent.cn/developer/article/2690909>
+
+## 清扫轮与写前搜现成来源
+
+主指令文件的变更后清扫习惯与技能“代理协作”先搜再写条的核对来源。调研日期：2026-10-24。
+
+- 官方插件 code-simplifier agent 全文：行为保持、跟随项目规范、增强清晰度、防过度简化、聚焦最近修改的代码。<https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md>
+- Anthropic Help Center 官方技巧页：证实 /simplify 以并行代理审查变更代码的复用、品质、效率与 CLAUDE.md 合规。<https://support.claude.com/zh-TW/articles/14554000-claude-code-%E9%AB%98%E7%B4%9A%E7%94%A8%E6%88%B7%E6%8A%80%E5%B7%A7>
+- 官方 changelog：v2.1.147 将 /simplify 改名 /code-review 并移除清理行为；v2.1.152 起 /simplify 为 /code-review --fix 的别名，审查复用、简化、效率与层级（altitude）清理后落地修复。<https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md>
+- /simplify 未见于官方文档与 changelog 的问题记录，含二进制 strings 中的现行工具描述（只管质量，不找 bug）。<https://github.com/anthropics/claude-code/issues/97711>
+- 三代理并行架构（复用/品质/效率）为 v2.1.63 时代行为，来源是社区重构稿，仅作流程参考，不引为官方事实。<https://github.com/Leonxlnx/agentic-ai-prompt-research/blob/main/prompts/19_simplify_skill.md>
