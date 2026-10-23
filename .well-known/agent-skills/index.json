@@ -21,6 +21,13 @@
       "description": "审计中文文本中的 AI 味：提示词文档与散文两轨，逐条病征带判定动作，可按需改写。当用户要求查 AI 味、审稿或检查表达质量时使用。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/ai-taste/SKILL.md",
       "digest": "sha256:601005704460982ca8f9987acac7ab1abfb727363dd43be951813e8a64eb6d36"
+    },
+    {
+      "name": "abstraction-design",
+      "type": "skill-md",
+      "description": "设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
+      "digest": "sha256:497ff3fa35ff201e8ec00ab798ed988bcb7510a367383173a48f178c4ececb5e"
     }
   ]
 }

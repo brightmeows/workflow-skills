@@ -6,7 +6,8 @@
       "skills": [
         "./skills/grilling",
         "./skills/writing-for-agents",
-        "./skills/ai-taste"
+        "./skills/ai-taste",
+        "./skills/abstraction-design"
       ]
     }
   ]
