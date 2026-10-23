@@ -2,8 +2,6 @@
 name: abstraction-design
 description: >-
   设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。
-metadata:
-  source: 原创归纳。方法论来源：Ousterhout《A Philosophy of Software Design》（深模块、信息隐藏、接口设计），Sandi Metz《The Wrong Abstraction》（错抽象成本、内联重提炼），Don Roberts 的 Rule of Three 与 Kent C. Dodds 的 AHA（提取时机），Joel Spolsky 泄漏定律（2002），Dave Cheney《Avoid package names like base, util, or common》（2019，命名）；出处与证据明细见本仓 docs/abstraction-design-references.md；2026-10-23 调研核对
 ---
 
 # 抽象设计（abstraction-design）

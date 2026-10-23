@@ -27,7 +27,7 @@
       "type": "skill-md",
       "description": "设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
-      "digest": "sha256:497ff3fa35ff201e8ec00ab798ed988bcb7510a367383173a48f178c4ececb5e"
+      "digest": "sha256:48a9ee61702db1ca5c5c9b1a030c2b25ec0bd214e37c9f44c15b7ba8b04be8aa"
     }
   ]
 }

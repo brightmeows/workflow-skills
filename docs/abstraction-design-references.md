@@ -1,6 +1,6 @@
 # abstraction-design 参考与证据
 
-技能 `skills/abstraction-design/SKILL.md` 的方法论出处与证据明细。技能正文保持操作密度，来源核对集中在这里。调研日期：2026-10-23。
+技能 `skills/abstraction-design/SKILL.md` 为原创归纳，本文档是其方法论出处与证据明细。技能正文保持操作密度，来源核对集中在这里。调研日期：2026-10-23。
 
 ## 方法论来源
 
