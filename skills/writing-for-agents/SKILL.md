@@ -1,13 +1,13 @@
 ---
 name: writing-for-agents
-description: 给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写被上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。
+description: 给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。
 metadata:
   source: 译自 mattpocock/skills 的 skills/productivity/writing-for-agents/（SKILL.md 与 SKILL-MECHANICS.md；中文本地化版，基准提交 d81f3a1）
 ---
 
 # 为代理写文档（Writing for Agents）
 
-这是为任何**代理消费的文档**而写的参考：一份技能、一份 `AGENTS.md`（或 `CLAUDE.md`）、一篇被指针指到的文档。包装形式不同，写法相同：同一套机制让它们变得可预测，因为代理每次运行走的是同一个**过程**，而不是产出同一份输出。
+这是为任何**代理消费的文档**而写的参考：一份技能、一份 `AGENTS.md`（或 `CLAUDE.md`）、一篇指针指到的文档。包装形式不同，写法相同：同一套机制让它们变得可预测，因为代理每次运行走的是同一个**过程**，而不是产出同一份输出。
 
 当你写的是技能时，另读 [`SKILL-MECHANICS.md`](SKILL-MECHANICS.md)：那里讲 frontmatter、触发方式的选择与路由技能。
 
