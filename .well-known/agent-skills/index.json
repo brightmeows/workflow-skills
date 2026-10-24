@@ -20,7 +20,7 @@
       "type": "skill-md",
       "description": "审计中文文本中的 AI 味：提示词文档与散文两轨，逐条病征带判定动作，可按需改写。当用户要求查 AI 味、审稿或检查表达质量时使用。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/ai-taste/SKILL.md",
-      "digest": "sha256:601005704460982ca8f9987acac7ab1abfb727363dd43be951813e8a64eb6d36"
+      "digest": "sha256:0a8f7d6665c4842887591d550c4a8291a5f852f8896805ed479177d20b406b28"
     },
     {
       "name": "abstraction-design",
@@ -28,6 +28,13 @@
       "description": "设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
       "digest": "sha256:4ae3e318cdd60ed092e7cc38ca8135b0000323c0d8b4196bc78ae223c80a58f6"
+    },
+    {
+      "name": "tech-doc-zh",
+      "type": "skill-md",
+      "description": "中文技术文档的清晰度写作与审计规范：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句。撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/tech-doc-zh/SKILL.md",
+      "digest": "sha256:8b0e4a7c09c808cbb6b2b4b0f2776c1dca05de2a5f6359ed89cafaf61fd66c9a"
     }
   ]
 }

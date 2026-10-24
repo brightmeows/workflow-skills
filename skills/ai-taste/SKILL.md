@@ -3,12 +3,12 @@ name: ai-taste
 description: >-
   审计中文文本中的 AI 味：提示词文档与散文两轨，逐条病征带判定动作，可按需改写。当用户要求查 AI 味、审稿或检查表达质量时使用。
 metadata:
-  source: 原创规则集；散文轨方法论化用 zero-click/avoid-ai-writing-zh 与 lucia-trend/de-ai-flavor 的公开规则（2026-10 调研），prompt 轨为本仓原创归纳；二轮调研并入中文维基《AI 生成文的特徵》、sepia、stop-slop-zh、humanizer-zh、speak-human-tw 等公开清单与文体计量研究
+  source: 原创规则集；散文轨方法论化用 zero-click/avoid-ai-writing-zh 与 lucia-trend/de-ai-flavor 的公开规则（2026-10 调研），prompt 轨为本仓原创归纳；二轮调研并入中文维基《AI 生成文的特徵》、sepia、stop-slop-zh、humanizer-zh、speak-human-tw 等公开清单与文体计量研究；ASD-STE100 调研（2026-10-24）结论：清晰度与 AI 味正交，清晰度规则不并入本技能、归 tech-doc-zh
 ---
 
 # AI 味审计（ai-taste）
 
-审计中文文本的表达与句式。审计的是质量信号，不判作者身份；输出命名病征与判定，不给“AI 概率百分比”。结构与信息设计、无效指令（no-op）归 `writing-for-agents`。
+审计中文文本的表达与句式。审计的是质量信号，不判作者身份；输出命名病征与判定，不给“AI 概率百分比”。结构与信息设计、无效指令（no-op）归 `writing-for-agents`；技术文档的清晰度问题（指代歧义、一句多指令、术语漂移、超长句）归 `tech-doc-zh`。
 
 ## 豁免线
 
