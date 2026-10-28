@@ -41,21 +41,21 @@
       "type": "skill-md",
       "description": "在写提交说明、拆分提交或判断提交时机时使用。管 Conventional Commits 格式、提交粒度、revert 安全与提交前检查门槛，也覆盖提交说明的常见反模式。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/commit-discipline/SKILL.md",
-      "digest": "sha256:ec6ea946f067256a5ba3a534b2cd86982f15514f53e45d97aebe32d29b13e2ca"
+      "digest": "sha256:a2d130c33b92b0f152b2fb7564b16c6b2bf6fe6b72229b544aa897d16f6e410d"
     },
     {
       "name": "doc-governance",
       "type": "skill-md",
       "description": "在新建、改写、废弃或提炼文档与代理指令文件时使用。管内容的增改废炼四种操作、单一事实源、存放层级与旧账清理，也覆盖使用者文档的豁免边界。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/doc-governance/SKILL.md",
-      "digest": "sha256:f795f924cdde3dca8567a056ede393c8d43545bed42d9417df80e20a1f2bcab9"
+      "digest": "sha256:cc1fea6aaaed3d2a1e8850befcfc84e4026f759f13b19535a0f358d16ddc80e5"
     },
     {
       "name": "retrieval-discipline",
       "type": "skill-md",
       "description": "在读文件、搜索代码、跑命令取信息或调用检索类工具时使用。管完整获取、先定位再回读、让工具自己精简、并行与串行、大输出落盘与上下文兜底。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/retrieval-discipline/SKILL.md",
-      "digest": "sha256:1ebf026e2c9573122a380454ecdd795785160f3949e47f292b143ab7607bd18a"
+      "digest": "sha256:188c188d1f511fe0cc3b9127bca01604303ee624b263e3602a6df346931bdcc5"
     }
   ]
 }

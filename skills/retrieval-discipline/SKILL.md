@@ -54,3 +54,5 @@ mkdir -p /tmp/agent-cache
 - 结论所依赖的原文，都读过完整范围
 - 没有为了少读几行而漏掉错误、警告或后续章节
 - 长输出落在磁盘，可复查、可复用，不用重跑
+
+维护理由、证据与粒度裁决见仓库 `docs/retrieval-discipline-rationale.md`（不随技能分发）。
