@@ -8,10 +8,7 @@
         "./skills/writing-for-agents",
         "./skills/ai-taste",
         "./skills/tech-doc-zh",
-        "./skills/abstraction-design",
-        "./skills/commit-discipline",
-        "./skills/doc-governance",
-        "./skills/retrieval-discipline"
+        "./skills/abstraction-design"
       ]
     }
   ]
