@@ -79,11 +79,11 @@ npx -y skills ls -g
 ## SKILL.md 编写约定
 
 - frontmatter `name` 与父目录名一致，小写连字符
-- `description` 第一句为中文功能描述，第二句为触发条件；总长不超过 1024 字符；如需写关键词，用 `Keywords:`，中文在前英文在后
+- `description` 先写触发条件（何时取），再写功能与覆盖范围；触发词放最前；总长不超过 1024 字符；如需写关键词，用 `Keywords:`，中文在前英文在后
 - 正文少于 500 行；事实类内容须在改动时重新验证，不依赖记忆
 - 技能名用反引号包裹
-- 规则的决策理由、证据与否决记录放 `docs/<skill>-rationale.md`，不写进 SKILL.md 正文；改规则时同提交更新该文档
-- `docs/` 不随技能分发；SKILL.md 末尾的维护理由指针只对仓库读者有效
+- 规则的决策理由、证据与否决记录放 `docs/<skill>-rationale.md`，不写进 SKILL.md 正文；翻译技能可用 frontmatter `source` 代替，调研台账用 `-probes.md` 或 `-references.md` 作附属证据；改规则时同提交更新对应文档
+- `docs/` 不随技能分发；维护理由的索引放 README，不写进 SKILL.md 末尾
 
 ## 维护指南
 
@@ -92,4 +92,4 @@ npx -y skills ls -g
 - 代理反复忽略某条规则时，补充到对应边界节
 - 代理已能稳定遵循某条规则时，从边界节移除（已内化）
 - 规则可被 hook 或 lint 强制时，迁移到 `.pre-commit-config.yaml`，指向工具配置
-- 边界节膨胀超过 10 条时，审计精简，工具可强制的移出
+- 单节边界超过 10 条，或三节合计超过 12 条时，审计精简，工具可强制的移出
