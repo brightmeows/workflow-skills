@@ -23,18 +23,18 @@
       "digest": "sha256:1795561f939857ffbe642714a3645b783f57b68c7b750949483335e225d3250b"
     },
     {
-      "name": "abstraction-design",
-      "type": "skill-md",
-      "description": "设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。",
-      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
-      "digest": "sha256:4f42e27dfe1cd85a0fbaf9a3090cc44093a318175fe06dcc9c6b4dec297fea2d"
-    },
-    {
       "name": "tech-doc-zh",
       "type": "skill-md",
       "description": "中文技术文档的清晰度写作与审计规范：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句。撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/tech-doc-zh/SKILL.md",
       "digest": "sha256:8b0e4a7c09c808cbb6b2b4b0f2776c1dca05de2a5f6359ed89cafaf61fd66c9a"
+    },
+    {
+      "name": "abstraction-design",
+      "type": "skill-md",
+      "description": "设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
+      "digest": "sha256:4f42e27dfe1cd85a0fbaf9a3090cc44093a318175fe06dcc9c6b4dec297fea2d"
     },
     {
       "name": "commit-discipline",
@@ -49,6 +49,13 @@
       "description": "在新建、改写、废弃或提炼文档与代理指令文件时使用。管内容的增改废炼四种操作、单一事实源、存放层级与旧账清理，也覆盖使用者文档的豁免边界。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/doc-governance/SKILL.md",
       "digest": "sha256:f795f924cdde3dca8567a056ede393c8d43545bed42d9417df80e20a1f2bcab9"
+    },
+    {
+      "name": "retrieval-discipline",
+      "type": "skill-md",
+      "description": "在读文件、搜索代码、跑命令取信息或调用检索类工具时使用。管完整获取、先定位再回读、让工具自己精简、并行与串行、大输出落盘与上下文兜底。",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/retrieval-discipline/SKILL.md",
+      "digest": "sha256:1ebf026e2c9573122a380454ecdd795785160f3949e47f292b143ab7607bd18a"
     }
   ]
 }

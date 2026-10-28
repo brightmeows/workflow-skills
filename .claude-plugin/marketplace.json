@@ -7,10 +7,11 @@
         "./skills/grilling",
         "./skills/writing-for-agents",
         "./skills/ai-taste",
-        "./skills/abstraction-design",
         "./skills/tech-doc-zh",
+        "./skills/abstraction-design",
         "./skills/commit-discipline",
-        "./skills/doc-governance"
+        "./skills/doc-governance",
+        "./skills/retrieval-discipline"
       ]
     }
   ]
