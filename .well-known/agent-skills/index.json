@@ -35,6 +35,20 @@
       "description": "中文技术文档的清晰度写作与审计规范：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句。撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/tech-doc-zh/SKILL.md",
       "digest": "sha256:8b0e4a7c09c808cbb6b2b4b0f2776c1dca05de2a5f6359ed89cafaf61fd66c9a"
+    },
+    {
+      "name": "commit-discipline",
+      "type": "skill-md",
+      "description": "在写提交说明、拆分提交或判断提交时机时使用。管 Conventional Commits 格式、提交粒度、revert 安全与提交前检查门槛，也覆盖提交说明的常见反模式。",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/commit-discipline/SKILL.md",
+      "digest": "sha256:ec6ea946f067256a5ba3a534b2cd86982f15514f53e45d97aebe32d29b13e2ca"
+    },
+    {
+      "name": "doc-governance",
+      "type": "skill-md",
+      "description": "在新建、改写、废弃或提炼文档与代理指令文件时使用。管内容的增改废炼四种操作、单一事实源、存放层级与旧账清理，也覆盖使用者文档的豁免边界。",
+      "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/doc-governance/SKILL.md",
+      "digest": "sha256:f795f924cdde3dca8567a056ede393c8d43545bed42d9417df80e20a1f2bcab9"
     }
   ]
 }
