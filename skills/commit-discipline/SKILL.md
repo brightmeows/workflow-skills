@@ -30,7 +30,7 @@ description: 在写提交说明、拆分提交或判断提交时机时使用。�
 
 - 有 hook 的仓库以 hook 为准，原样运行，不绕过
 - hook 失败先本地修复（格式化、lint 的修复模式），再重新暂存
-- 没有 hook 的项目，收尾至少跑一次基本检查，按仓库实际工具选：`pnpm check`、`cargo check`、`cargo test`、`eslint`
+- 没有 hook 的项目，收尾至少跑一次基本检查，按仓库实际工具选：`package.json` scripts、`Cargo.toml`、Makefile 或等价入口
 - 暂存后看一眼 `git diff --cached`，确认没夹带无关文件
 
 ## 反模式
@@ -44,6 +44,4 @@ description: 在写提交说明、拆分提交或判断提交时机时使用。�
 
 - 不看 diff 也能从说明知道改了什么、为什么
 - `git log --oneline` 里每个提交都能单独 revert
-- 检查命令在提交前跑过，失败项已修复或如实报告
-
-维护理由、证据与否决记录见仓库 `docs/commit-discipline-rationale.md`（不随技能分发）。
+- 提交前跑过检查命令，失败项已修复或如实报告

@@ -1,19 +1,17 @@
 ---
 name: tech-doc-zh
 description: >-
-  中文技术文档的清晰度写作与审计规范：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句。撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE
+  撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用。管中文技术文档的清晰度：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE
 metadata:
   source: >-
-    原创归纳。方法论借鉴 ASD-STE100 Issue 9（53 规则 9 节、程序性与描述性写作分野、技术名词豁免思路）；
-    条文另取阮一峰《中文技术文档的写作规范》（公共领域：句长分级、指代消歧、主动语态、条的地的）；
-    对照备案 Fenng/Tech-Doc-Style-Chinese（适用强度三级分级，MIT）、mzopedia/simplified-technical-chinese
-    （STC，40 规则与受控词典，MIT）、KonglingDaDa/zh-ste100-jev-skill（篇句字三层、中国民机简化语言规范线索，MIT）。
-    调研日期 2026-10-24，三项目许可证已核（均 MIT），只取思想不搬条文。
+    原创归纳。方法论借鉴 ASD-STE100 Issue 9；条文参考阮一峰《中文技术文档的写作规范》，
+    对照 Fenng/Tech-Doc-Style-Chinese、mzopedia/simplified-technical-chinese、
+    KonglingDaDa/zh-ste100-jev-skill（均 MIT），只取思想不搬条文。调研日期 2026-10-24。
 ---
 
 # 中文技术文档清晰度（tech-doc-zh）
 
-本技能管中文技术文档的清晰度：读者读一遍就照着做、不会做错。AI 味问题（结构可预测、金句铸句、缓冲词）归 ai-taste；中文标点与弯引号归主指令文件的表达规范。
+目标是读者读一遍就照着做、不会做错。AI 味问题（结构可预测、金句铸句、缓冲词）归 ai-taste；中文标点与弯引号归主指令文件的表达规范。
 
 ## 用法
 
@@ -76,7 +74,7 @@ metadata:
 
 ## 预防块
 
-技术文档写作的正面约束，比审计判据更严；可整段嵌入写作提示词或 AGENTS.md，也可写完后对照自检。
+技术文档写作的正面约束，比审计判据更严；可整段嵌入写作提示词或 AGENTS.md，也可写完后对照自检。预防块是判据的正面重述，改判据时同步改这里。
 
 ```markdown
 ## 技术文档写作约束

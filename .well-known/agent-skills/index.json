@@ -4,58 +4,58 @@
     {
       "name": "grilling",
       "type": "skill-md",
-      "description": "当用户想压力测试计划、决策或想法，或使用“拷问”“盘问”“压力测试”等触发短语时，使用本技能持续盘问每个细节直到达成共识。即使未明确说“拷问”，只要用户提到方案审查、需求对齐、决策复核，同样适用。",
+      "description": "当用户使用“拷问”“盘问”“压力测试”等触发短语，或提出方案审查、需求对齐、决策复核时使用。持续盘问每个细节直到达成共识。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/grilling/SKILL.md",
-      "digest": "sha256:d9b321fbfc34cde681e53b5562018f987db4af91f0d6408a8267cafa9234191a"
+      "digest": "sha256:8dee26642423179fdbdf2161494ee7809d0f5a157393f8958ca3bacc2096fa42"
     },
     {
       "name": "writing-for-agents",
       "type": "skill-md",
       "description": "给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/writing-for-agents/SKILL.md",
-      "digest": "sha256:17ca6cf30b3ec5d11f1cae721741c69cf72d268dc0d14d9103484013174018dc"
+      "digest": "sha256:6aac46bff5ca41b1db77e6561b6911576186c880750c19c981bcea2e1368c73b"
     },
     {
       "name": "ai-taste",
       "type": "skill-md",
-      "description": "审计中文文本中的 AI 味：提示词文档与散文两轨，逐条病征带判定动作，可按需改写。当用户要求查 AI 味、审稿或检查表达质量时使用。",
+      "description": "当用户要求查 AI 味、审稿或检查表达质量时使用。审计中文文本的 AI 味：提示词文档与散文两轨，逐条病征带判定动作，可按要求改写。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/ai-taste/SKILL.md",
-      "digest": "sha256:1795561f939857ffbe642714a3645b783f57b68c7b750949483335e225d3250b"
+      "digest": "sha256:046e886b3bf0a9bf13ba71e378812cbb6fe96132be04e086633a8e360d63df20"
     },
     {
       "name": "tech-doc-zh",
       "type": "skill-md",
-      "description": "中文技术文档的清晰度写作与审计规范：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句。撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE",
+      "description": "撰写、审校或改写中文技术文档（说明书、runbook、接口文档、交付文档）时使用。管中文技术文档的清晰度：以受控语言方法（借鉴 ASD-STE100）约束操作手册、部署与运维文档、接口文档与交付文档的写法，审计一句多指令、指代歧义、术语漂移与超长句；散文文体与 AI 味问题归 ai-taste。Keywords: 技术文档, 清晰度, 受控语言, 简明技术中文, 说明书, 运维手册, runbook, API 文档, technical writing, controlled language, STE",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/tech-doc-zh/SKILL.md",
-      "digest": "sha256:8b0e4a7c09c808cbb6b2b4b0f2776c1dca05de2a5f6359ed89cafaf61fd66c9a"
+      "digest": "sha256:0bb1560561d7a87a8f9bb6caa79d0c493c3b391c6f5f12ba8042f472bc549f20"
     },
     {
       "name": "abstraction-design",
       "type": "skill-md",
-      "description": "设计与整理代码抽象的操作纪律：判断何时提取共享代码，如何把模块做深、接口做窄，如何识别并修复已经变质的抽象。当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。",
+      "description": "当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。管提取时机、模块形态与变质抽象的回退。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
-      "digest": "sha256:4f42e27dfe1cd85a0fbaf9a3090cc44093a318175fe06dcc9c6b4dec297fea2d"
+      "digest": "sha256:095324e51d1376b4736327157d744aceeae2491ee34481e77f6640b03a8e5c28"
     },
     {
       "name": "commit-discipline",
       "type": "skill-md",
       "description": "在写提交说明、拆分提交或判断提交时机时使用。管 Conventional Commits 格式、提交粒度、revert 安全与提交前检查门槛，也覆盖提交说明的常见反模式。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/commit-discipline/SKILL.md",
-      "digest": "sha256:a2d130c33b92b0f152b2fb7564b16c6b2bf6fe6b72229b544aa897d16f6e410d"
+      "digest": "sha256:afd1d720683f5465491503fe98041cdcf2f6b58786b146d9eafb00cae488173c"
     },
     {
       "name": "doc-governance",
       "type": "skill-md",
       "description": "在新建、改写、废弃或提炼文档与代理指令文件时使用。管内容的增改废炼四种操作、单一事实源、存放层级与旧账清理，也覆盖使用者文档的豁免边界。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/doc-governance/SKILL.md",
-      "digest": "sha256:cc1fea6aaaed3d2a1e8850befcfc84e4026f759f13b19535a0f358d16ddc80e5"
+      "digest": "sha256:0bf8380b427ef2aa569119440a97ee3718265ac2356d1f64ea9543ea34cd30bf"
     },
     {
       "name": "retrieval-discipline",
       "type": "skill-md",
-      "description": "在读文件、搜索代码、跑命令取信息或调用检索类工具时使用。管完整获取、先定位再回读、让工具自己精简、并行与串行、大输出落盘与上下文兜底。",
+      "description": "在取信息时使用：读文件、搜索代码、跑命令或调用检索工具。管完整获取、先定位再回读、让工具自己精简、并行与串行、大输出落盘与上下文兜底。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/retrieval-discipline/SKILL.md",
-      "digest": "sha256:188c188d1f511fe0cc3b9127bca01604303ee624b263e3602a6df346931bdcc5"
+      "digest": "sha256:1800f43fa3a2a7565f07d7d59d9588cf2f73c732786166550fd96010f5274af3"
     }
   ]
 }
