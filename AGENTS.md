@@ -17,7 +17,7 @@
 ### Always
 
 - 修改 `.md` 后通过 `pre-commit run markdownlint` 验证格式
-- 修改任何 `SKILL.md` 后，重算 sha256 并同步 `.well-known/agent-skills/index.json` 的 `digest` 与 `description`（三处必须逐字一致：frontmatter、index.json、实际文件）
+- 修改任何 `SKILL.md` 后，重算 sha256 写入 `.well-known/agent-skills/index.json` 的 `digest`；同步该文件的 `description`，使其与 frontmatter 逐字一致
 - 新增或移除技能目录时，同步更新 `.well-known/agent-skills/index.json` 与 `.claude-plugin/marketplace.json` 的 `skills`
 - 提交信息使用 Conventional Commits；每完成一个逻辑单元立即原子提交
 - 提交前执行 `git status` + `git diff` 确认只包含预期变更
