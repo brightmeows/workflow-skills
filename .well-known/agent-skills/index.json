@@ -6,7 +6,7 @@
       "type": "skill-md",
       "description": "当用户使用“拷问”“盘问”“压力测试”等触发短语，或提出方案审查、需求对齐、决策复核时使用。持续盘问每个细节直到达成共识。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/grilling/SKILL.md",
-      "digest": "sha256:8dee26642423179fdbdf2161494ee7809d0f5a157393f8958ca3bacc2096fa42"
+      "digest": "sha256:3b16a1f6cefd1dfb993184ac82d07804ff567385281c6a397a3e0c86936981d9"
     },
     {
       "name": "writing-for-agents",
