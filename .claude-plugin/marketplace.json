@@ -7,7 +7,6 @@
         "./skills/grilling",
         "./skills/writing-for-agents",
         "./skills/ai-taste",
-        "./skills/tech-doc-zh",
         "./skills/abstraction-design"
       ]
     }
