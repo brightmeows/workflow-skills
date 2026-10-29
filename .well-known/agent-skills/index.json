@@ -13,7 +13,7 @@
       "type": "skill-md",
       "description": "给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/writing-for-agents/SKILL.md",
-      "digest": "sha256:cc6ce597bb4dd9757c6cd3d13ce36755fd3eb159758be3f4364588c101182561"
+      "digest": "sha256:88d534d764ce0f562ea2cfab9f00c001e4ca00d7835404c8fceb7450515bf726"
     },
     {
       "name": "ai-taste",
@@ -34,7 +34,7 @@
       "type": "skill-md",
       "description": "当代理要提取共享代码、设计模块或接口边界、评审抽象质量、或整理用起来越来越别扭的抽象时使用。管提取时机、模块形态与变质抽象的回退。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/abstraction-design/SKILL.md",
-      "digest": "sha256:095324e51d1376b4736327157d744aceeae2491ee34481e77f6640b03a8e5c28"
+      "digest": "sha256:92f30903c51cca48a9c07bb7e297501787a324bd2af209669387a412ca065565"
     }
   ]
 }
