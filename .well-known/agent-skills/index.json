@@ -6,14 +6,14 @@
       "type": "skill-md",
       "description": "当用户使用“拷问”“盘问”“压力测试”等触发短语，或提出方案审查、需求对齐、决策复核时使用。持续盘问每个细节直到达成共识。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/grilling/SKILL.md",
-      "digest": "sha256:f9440cda6f9ab7fb3a75dfd8e2f41e21f074fb9138b9ffe7c315869905c122b9"
+      "digest": "sha256:dabdb6dc272bd3e28408377cd0684d9258aedcd04eaa267d7fd6eb48ba0b702e"
     },
     {
       "name": "writing-for-agents",
       "type": "skill-md",
       "description": "给代理编写文档时使用：创建或编辑技能、修改 AGENTS.md 或 CLAUDE.md、编写上下文指针引用的文档。覆盖上下文指针、两种负载、信息层级、完成判据、引导词、剪除，以及技能 frontmatter 与触发方式的取舍。",
       "url": "https://raw.githubusercontent.com/brightmeows/workflow-skills/main/skills/writing-for-agents/SKILL.md",
-      "digest": "sha256:88d534d764ce0f562ea2cfab9f00c001e4ca00d7835404c8fceb7450515bf726"
+      "digest": "sha256:52f357b4d96cddcd265d69ae666d5c0416c743cc4233ab903d16111710c87e68"
     },
     {
       "name": "ai-taste",
